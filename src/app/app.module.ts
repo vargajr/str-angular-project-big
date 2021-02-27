@@ -8,6 +8,7 @@ import { NavbarComponent } from './common/navbar/navbar.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { FooterComponent } from './common/footer/footer.component';
 import { RightDropdownComponent } from './common/right-dropdown/right-dropdown.component';
+import { InfoCardComponent } from './common/info-card/info-card.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RightDropdownComponent } from './common/right-dropdown/right-dropdown.c
     NavbarComponent,
     DashboardComponent,
     FooterComponent,
-    RightDropdownComponent
+    RightDropdownComponent,
+    InfoCardComponent
   ],
   imports: [
     BrowserModule,
