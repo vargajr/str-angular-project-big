@@ -1,1 +1,6 @@
 <p>list-bill works!</p>
+length: {{ length$ | async }} <br>
+not paid: {{ notPaidBills$ | async }}
+<pre>
+    {{ billList$ | async | json }}
+</pre>
